@@ -18,3 +18,6 @@ vixra:2511.XXXXX (pending)
 - All n ≤ 1000 reach 1 in O(log n)
 - Known orbits: 10^{32} confirmed
 - Symbolic: Gronwall forces all n
+
+## Terras Convergence Tie-In
+O(log n) via Terras (1980) bound. Run: python collatz_terr as.py.
