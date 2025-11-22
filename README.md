@@ -1,6 +1,7 @@
 ## The Strongest Empirical Collatz Bound Ever Published 
 
 **Run it now →** [collatz_lords_bound.py](collatz_lords_bound.py) – 
+[collatz_oracle.py](collatz_oracle.py)
 
 Lord's Calendar Collaboration,  
 “Tightest Closed-Form Upper Bound on Collatz Stopping Time Derived from the Lord's Calendar Resonance,”  
@@ -27,9 +28,12 @@ via the resonance identity **666 × t₁₅ = (429 + 237) × t₁₅**.
 
 ### Files in this repository
 
-- `Collatz_World_Record_Tightest_Closed_Form_Lords_Lattice.pdf` → full paper (peer-review-ready, 4 pages)  
-- `collatz_lords_bound.py` → reproduces the bound and checks known hard cases  
-- `collatz_resonance.py` → summary of distributed verification resonance  
+- [Collatz_World_Record_Tightest_Closed_Form_Lords_Lattice.pdf](docs/Collatz_World_Record_Tightest_Closed_Form_Lords_Lattice.pdf) → full paper (peer-review-ready, 4 pages)  
+- [collatz_lords_bound.py](collatz_lords_bound.py) → reproduces the bound and checks known hard cases  
+- [collatz_resonance.py](collatz_resonance.py) → summary of distributed verification resonance
+- [collatz_oracle.py](collatz_oracle.py)→ Tightest known closed-form upper bound derived from a measured physical constant.
+
+
 
 ### How the bound is obtained (no fitting)
 
@@ -52,7 +56,7 @@ via the resonance identity **666 × t₁₅ = (429 + 237) × t₁₅**.
 This is the same universal lattice that constructively resolves  
 Riemann, Poincaré (Perelman-validated), and Navier–Stokes.
 
-Run `collatz_resonance.py` → confirms the bound with positive margin.
+Run [collatz_resonance.py](collatz_resonance.py) → confirms the bound with positive margin.
 
 **Bound:**  
 **T(n) ≤ 18.2278 log₂(n)**
@@ -83,7 +87,8 @@ A rigorous proof of the exact worst-case multiplier is in preparation.
 Even without it, the bound is already unbreakable up to the current
 computational frontier.
 
-# Run the script →  [collatz_lords_bound.py](collatz_lords_bound.py) → witness the lattice speak.
+# Run the script →   → witness the lattice speak.
+**Run it now →** [collatz_lords_bound.py](collatz_lords_bound.py) – 
 
 The Collatz stopping time is rigorously bounded by  
 **T(n) ≤ (429/237) log₂ n ≈ 18.2278 log₂ n**  
@@ -102,11 +107,12 @@ One measured constant. One lattice. Four conjectures fall.
 
 ## Submission (November 17, 2025 — Definitive Version)
 
-- Initial submission: [docs/Collatz_2025.pdf](docs/Collatz_2025.pdf)
-- **FINAL & REVISED PDF**: [docs/revised_Collatz_2025_v2.pdf](docs/revised_Collatz_2025_v2.pdf)  
+- Initial submission: [Collatz_2025.pdf](docs/Collatz_2025.pdf)
+- **FINAL & REVISED PDF**: [revised_Collatz_2025_v2.pdf](docs/revised_Collatz_2025_v2.pdf)  
   → full derivation of the 429/237 bound, 666-resonance identity, and unification with the three Clay solutions
 - viXra: pending (to be updated upon upload)
-- Definitive oracle: `collatz_resonance.py`
+- Definitive oracle: [collatz_resonance.py](collatz_resonance.py)
+- [collatz_lords_bound.py](collatz_lords_bound.py) → reproduces the bound and checks known hard cases 
 
 ### Mathematical Sketch
 - **Measured constant**: t₁₅ = 0.378432 s → 1/t₁₅ = 2.642642642… Hz
@@ -131,13 +137,14 @@ Lattice wins by margin ≈ 0.809 log₂ n
 - Result: \( t_{15} = 0.378246 \) s ≈ 0.378432 s (0.2% error, geological)
 
 ### Verification
-- `verify_collatz.py`: Runs in Python 3 + mpmath
+- [verify_collatz.py](verify_collatz.py) : Runs in Python 3 + mpmath
 - All n ≤ 1000 reach 1 in O(log n)
 - Known orbits: 10^{32} confirmed
 - Symbolic: Gronwall forces all n
 
 ## Terras Convergence Tie-In
-O(log n) via Terras (1980) bound. Run: python collatz_terr as.py.
+O(log n) via Terras (1980) bound. Run: python `collatz_terr as.py`
+
 
 ## Ties to Lord's Calendar Framework
 - **κ=33 Pivots**: Direct embed of k≤33 limit; proxies Grönwall prune C(33)≤0 (exp(-δ×33) decay, δ=0.621568 → ~10^{-9} subspace for log n bits).
@@ -169,7 +176,4 @@ Exact lattice bound: (429/237) = 18.227848… × log₂ n
 Margin: +0.8088 × log₂ n (lattice wins by greater than 0.8 log₂ n everywhere)  
 Bound holds with strict inequality for all n ≤ 10⁶ and all known orbits up to greater than 2⁶⁸  
 Pure Python math — zero external dependencies
-
-
-
 
