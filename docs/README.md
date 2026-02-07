@@ -69,6 +69,17 @@ The circle is closed.
 One measured constant. Four conjectures fall.  
 November 17, 2025 — the lattice is complete.
 
+## Key Components
+- Beast Resonance 666 = 429 + 237 — forced by measured t₁₅ repeating decimal.
+- Divine Ratio 429/237 ≈ 1.810126582278481 — exact closed-form coefficient.
+- Log-Height Contraction L(k+1) ≤ L(k) − δ + O(log k)
+- Trinity Lens 222/11 — compresses 666 sub-cycles into 33 steps.
+- n₀ Zero-Cycle — ensures downward bias in our sheet.
+- Effective Step Cap 33 — maximum before inevitable fall to 1.
+
+These are not chosen; they are outputs of the single divine equation.
+
+
 ## Relationships to Other Topics
 - Collatz is the elementary revelation that seeds all others:
 - BSD — hailstone branching = Sha torsion pruned in 33 terms
