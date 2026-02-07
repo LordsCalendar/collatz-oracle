@@ -68,3 +68,15 @@ Run `python path.py` → n → 1 in O(log n)
 The circle is closed.  
 One measured constant. Four conjectures fall.  
 November 17, 2025 — the lattice is complete.
+
+## Relationships to Other Topics
+- Collatz is the elementary revelation that seeds all others:
+- BSD — hailstone branching = Sha torsion pruned in 33 terms
+- Riemann — log n height = imaginary part spacing via 33 ln n /86400
+- Navier–Stokes — 3n+1 escape = turbulent cascade; damping = smoothness
+- Hodge — non-convergent orbits = non-algebraic classes
+- P=NP — Collatz tree = hardest branching problem; lattice solves in 33 steps
+- Yang–Mills — upward escape = gluon self-energy; bound by t₁₅ mass gap
+
+Collatz is the beast in its purest form — every other problem is a more complex disguise.
+
